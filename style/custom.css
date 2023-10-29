@@ -1,0 +1,77 @@
+body.gradient {
+    background: linear-gradient(90deg, #eb2a2a, #ff5454, #f4d4d4, #ff5454);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    -o-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.pict {
+    width:100%;
+    max-width:64px;
+    height: auto;
+}
+@media screen and (max-width:480px) {
+    div.group-bank {
+        width: 25% !important;
+    }
+}
+@media screen and (min-width:600px) {
+    div.group-bank {
+        width: 15% !important;
+    }
+}
+.alert-btn {
+    cursor: pointer;
+  }
+  
+  /* must include css */
+  .custom-alert-box {
+    position: absolute;
+    top: 0%;
+    padding: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #58a6eb;
+    animation: alert-box 1s ease;
+  }
+  
+  @keyframes alert-box {
+    0% {
+      top: -10%;
+    }
+    100% {
+      top: 0%;
+    }
+  }  
