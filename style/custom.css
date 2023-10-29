@@ -1,3 +1,6 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
 body.gradient {
     background: linear-gradient(90deg, #eb2a2a, #ff5454, #f4d4d4, #ff5454);
     background-size: 800% 800%;
