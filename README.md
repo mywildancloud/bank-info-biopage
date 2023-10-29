@@ -1,6 +1,11 @@
 # bank-info-biopage
+
 ## Usage
-- clone or download repo
+- clone or download this repo
+- open in visual studio code or favourite text editor
+- edit file index.html to replace bio name, bank account and more customizeable
+- upload into your public_html >> folder /domain
+- Finish to launch
 
 ![banner](https://github.com/brandmarketers/bank-info-biopage/blob/main/screenshot.png)
 
