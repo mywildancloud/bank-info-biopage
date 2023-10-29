@@ -1,5 +1,6 @@
 # bank-info-biopage
 ## Usage
+- clone or download repo
 
 ![banner](https://github.com/brandmarketers/bank-info-biopage/blob/main/screenshot.png)
 
