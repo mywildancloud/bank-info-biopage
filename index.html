@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account Bank</title>
-    <link rel="stylesheet" href="style/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/custom.css"> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/custom.css"> 
 </head>
 <body class="gradient">
+    <!---wrapper content-->
     <section class="container p-0" style="max-width: 800px;">
         <div class="p-sm-5 m-sm-5 py-5 my-5 px-2 bg-white shadow-lg rounded-3">
             <div class="container mx-auto d-block text-center">
@@ -72,17 +73,21 @@
             </div>
         </div>
     </section>
-    <script src="style/js/bootstrap.bundle.min.js"></script>
-    <script src="style/clipboard.js"></script>
-    <script src="style/alert-box.js"></script>
+    <!--assets JS-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/clipboard.js"></script>
+    <script src="assets/alert-box.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--google font-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     </style>
+    <!--script toggler-->
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+    <!--custom alert-->
     <script defer>
         alertOnClick('link-bca','Nomor Rekening 4371624656 Berhasil di Salin.');
         alertOnClick('link-bri','Nomor Rekening 416101026698500 Berhasil di Salin.');
