@@ -1,0 +1,33 @@
+@media (min-width:768px) {
+    .home:not(.akses):not(.order):not(.subscription):not(.affiliasi):not(.affiliasi-link):not(.affiliasi-kupon):not(.affiliasi-komisi):not(.profile)
+ .menu-home a,
+ .order .menu-order a,
+ .akses .menu-akses a,
+ .subscription .menu-subscription a,
+ .affiliasi .menu-affiliasi a,
+ .affiliasi-komisi .menu-affiliasi a,
+ .affiliasi-kupon .menu-affiliasi a, 
+ .affiliasi-link .menu-affiliasi a
+ {
+     border-bottom: solid 2px #4f46e5 !important;
+     color:#4f46e5 !important;
+ }
+  
+ }
+ @media (max-width:767px) {
+     .home:not(.akses):not(.order):not(.subscription):not(.affiliasi):not(.profile):not(.affiliasi-komisi):not(.affiliasi-kupon):not(.affiliasi-link)
+ .menu-home a,
+ .order .menu-order a,
+ .akses .menu-akses a,
+ .subscription .menu-subscription a,
+ .affiliasi-komisi .menu-affiliasi-komisi a,
+ .affiliasi-kupon .menu-affiliasi-kupon a,
+ .affiliasi-link .menu-affiliasi-link a,
+ .profile .menu-profile a
+ {
+     border-left: solid 2px #4f46e5 !important;
+     color:#4f46e5 !important;
+     background: #e0e7ff !important;
+     border-radius:6px !important;
+ }
+ }
